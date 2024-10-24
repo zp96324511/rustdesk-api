@@ -6,7 +6,7 @@ import (
 
 type UserForm struct {
 	Id       uint   `json:"id"`
-	Username string `json:"username" validate:"required,gte=4,lte=10"`
+	Username string `json:"username" validate:"required,gte=4,lte=12"`
 	//Password string           `json:"password" validate:"required,gte=4,lte=20"`
 	Nickname string           `json:"nickname"`
 	Avatar   string           `json:"avatar"`
